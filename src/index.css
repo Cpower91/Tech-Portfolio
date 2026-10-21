@@ -4,16 +4,21 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "space-grotesk", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background: black;
   color: #f3f4f6;
 }
 
 @layer utilities {
-  .animate-blink {
-    @apply animate-pulse;
+  @keyframes loading {
+    0%{
+      transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(250%);
+    }
   }
-  .animate-loading-bar {
-    @apply animate-[loading-bar_2s_infinite];
-  }
+      .animate-loading-bar{
+      animation: loading 0.8s ease infinite;
+    }
 }
