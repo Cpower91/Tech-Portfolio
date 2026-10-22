@@ -71,7 +71,7 @@ export const Projects = () => {
             '>
               <h3 className='text-xl font-bold mb-2'>TFS Migration</h3>
               <p className='text-gray-400 mb-4'>
-                Spearheaded the project to migrage legacy applications from TFS
+                Spearheaded the project to migrate legacy applications from TFS
                 cloud to on-prem servers.
               </p>
               <div className='flex flex-wrap gap-2 mb-4'>

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState('');
-  const fullText = '<Loading, Cam Power />';
+  const fullText = '<Cam Power />';
 
   useEffect(() => {
     let index = 0;
